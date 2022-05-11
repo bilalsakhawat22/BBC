@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 // import { useQueryParam, NumberParam, StringParam } from 'use-query-params';
 // import Footer from '../Footer/Footer'
@@ -83,13 +83,13 @@ const Main = styled.div`
   padding-bottom: 120px;
 `
 
-const Content = styled.div`
-    z-index: 5;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    min-height: calc(100vh - 0}px);  
-`
+// const Content = styled.div`
+//     z-index: 5;
+//     align-items: center;
+//     display: flex;
+//     flex-direction: column;
+//     min-height: calc(100vh - 0}px);  
+// `
 
 
 const CenterColumn = styled.div `
